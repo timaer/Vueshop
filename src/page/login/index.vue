@@ -16,7 +16,7 @@
               <van-button color="#FF8A7A" block @click='doLogin()'>登  陆</van-button>
           </div> 
           <div class='forget_password'>
-              忘记密码?
+             
           </div>    
       </div>    
       <div class='bottomwords'>copyright@2021</div>
@@ -60,7 +60,7 @@ export default {
 }
 </script>
 <style scoped>
-#login{background-color:#F6F6F6;min-height: 100vh;padding-top:60px;z-index:999;padding: 0 0.5rem;overflow:hidden;position: relative;}
+#login{background-color:#F6F6F6;min-height: 100vh;padding-top:60px;z-index:999;padding: 0 0.5rem;overflow:hidden;position: relative;margin:0 auto;max-width:640px;}
 .logo{margin-top:1.5rem;}
 .logoimg{width:4rem;height:4rem;}
 .title{font-size:0.5rem;font-weight: 600;padding: 0.15rem;}
